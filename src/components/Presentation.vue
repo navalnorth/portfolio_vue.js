@@ -3,7 +3,7 @@
         <div>
             <p class="text-4xl">Bienvenue ! </p>
 
-            <ul class="flex justify-center gap-2">
+            <ul class="flex justify-center gap-1">
                 <li @click="section = 'presentation'"
                     class="cursor-pointer xl:text-xl text-xs xl:mx-4 mx-2 xl:my-6 my-4 border-white border hover:text-blue-800 hover:bg-white rounded-2xl xl:px-6 px-2 py-1">
                     Présentation
@@ -13,8 +13,8 @@
                     Langues
                 </li>
                 <li @click="section = 'softskills'"
-                    class="cursor-pointer xl:text-xl text-xs xl:mx-4 mx-2 xl:my-6 my-4 border-white border hover:text-blue-800 hover:bg-white rounded-2xl xl:px-6 px-2 py-1">
-                    Soft Skills
+                    class="cursor-pointer xl:text-xl text-xs xl:mx-4 mx-2 xl:my-6 my-4 border-white border hover:text-blue-800 hover:bg-white rounded-2xl xl:px-6 px-4 py-1">
+                    Qualités
                 </li>
                 <li @click="section = 'passions'"
                     class="cursor-pointer xl:text-xl text-xs xl:mx-4 mx-2 xl:my-6 my-4 border-white border hover:text-blue-800 hover:bg-white rounded-2xl xl:px-6 px-2 py-1">
