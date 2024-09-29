@@ -2,7 +2,7 @@
     <div class="transition flex justify-center items-center" ref="change">
         <img src="/src/assets/ban.jpg" class="ban h-screen bg-no-repeat object-cover grayscale opacity-50">
 
-        <p class="absolute md:text-4xl text-3xl z-10 mb-72 text-center">
+        <p class="absolute md:text-4xl text-2xl z-10 mb-72 text-center">
             <b>Etudiant développeur Full-Stack</b><br>
             <span class="md:text-3xl text-2xl">Mohamed A.T.</span>
         </p>

@@ -9,7 +9,7 @@
             <Presentation />
             <div class="flex justify-center">
                 <button
-                    class="xl:text-2xl text-xl xl:mx-4 mx-2 xl:my-8 my-5 rounded-2xl hover:rounded-2xl bg-white text-blue-800 hover:text-white hover:bg-blue-800 hover:border hover:border-white xl:px-6 px-2 py-1">
+                    class="xl:text-2xl text-md xl:mx-4 mx-2 xl:my-8 my-5 rounded-2xl hover:rounded-2xl bg-white text-blue-800 hover:text-white hover:bg-blue-800 hover:border hover:border-white xl:px-6 px-2 py-1">
                     <a href="#webskills">
                         Mes skills du web 💪
                     </a>
