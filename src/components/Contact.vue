@@ -56,6 +56,7 @@ import emailjs from '@emailjs/browser';
 const name = ref('');
 const email = ref('');
 const message = ref('');
+
 const sent = ref(false);
 const error = ref('');
 
@@ -72,7 +73,7 @@ const sendEmail = () => {
         .then(() => {
             sent.value = true;
             error.value = '';
-            
+
             name.value= ""
             email.value= ""
             message.value= ""
