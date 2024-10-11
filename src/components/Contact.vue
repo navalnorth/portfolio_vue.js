@@ -10,7 +10,7 @@
                     Votre nom
                 </label>
                 <input v-model="name" type="text" id="message"
-                    class="block py-2 px-4 w-full text-sm text-black rounded-2xl" required>
+                    class="block py-2 px-4 w-full text-sm text-black rounded-lg" required>
             </div>
 
             <div>
@@ -18,7 +18,7 @@
                     Votre email
                 </label>
                 <input v-model="email" type="email" id="email"
-                    class="text-black text-sm rounded-2xl block w-full py-2 px-4"
+                    class="text-black text-sm rounded-lg block w-full py-2 px-4"
                     required>
             </div>
 
@@ -26,12 +26,12 @@
                 <label for="message" class="block mb-1 text-sm font-medium text-white dark:text-gray-400">
                     Votre message
                 </label>
-                <textarea v-model="message" id="message" rows="4" class="block py-2 px-4 w-full text-sm rounded-2xl" required>
+                <textarea v-model="message" id="message" rows="4" class="block py-2 px-4 w-full text-sm rounded-lg" required>
                 </textarea>
             </div>
 
             <div class="flex justify-center">
-                <button type="submit" class="p-2 text-center text-white border-2 border-white rounded-2xl hover:bg-white hover:text-blue-800">
+                <button type="submit" class="p-2 text-center text-white border-2 border-white rounded-lg hover:bg-white hover:text-blue-800">
                     Envoyer message
                 </button>
             </div>
@@ -41,8 +41,8 @@
         <div v-if="error">{{ error }}</div>
 
         <div class="flex justify-center mt-8 gap-8">
-            <a href="https://github.com/navalnorth" target="_blank"><img src="../assets/github.png" class="w-32 rounded-2xl"></a>
-            <a href="https://www.linkedin.com/in/mohamed-navalnorth-10061626b/" target="_blank"><img src="../assets/linkedin.png" class="w-32 rounded-2xl"></a>
+            <a href="https://github.com/navalnorth" target="_blank"><img src="../assets/github.png" class="w-32 rounded-lg"></a>
+            <a href="https://www.linkedin.com/in/mohamed-navalnorth-10061626b/" target="_blank"><img src="../assets/linkedin.png" class="w-32 rounded-lg"></a>
         </div>
     </div>
 </template>

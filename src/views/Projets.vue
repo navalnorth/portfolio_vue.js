@@ -1,6 +1,6 @@
 <template>
 
-    <div class="h-full 2xl:h-screen p-2">
+    <div class="h-screen 2xl:h-screen p-2">
         <div class="box-border flex flex-col justify-evenly h-full border-8 border-blue-800 p-2">
             <h1 class="text-4xl text-center my-1">Mes projets</h1>
 
@@ -17,9 +17,8 @@
                 </a>
             </div>
         </div>
-
-
     </div>
+
     <div class="bg-blue-800">
         <Contact id="contact"/>
     </div>

@@ -9,10 +9,10 @@
 
         <button
             @click="skills"
-            class="plus absolute overflow-hidden rounded-2xl text-3xl px-6 py-3 hover:text-white text-blue-800 border-4 border-black
+            class="plus absolute overflow-hidden rounded-lg text-3xl px-6 py-3 hover:text-white text-blue-800 border-4 border-black
                   before:h-1 before:absolute before:bottom-0 before:w-full before:bg-blue-800 hover:bg-blue-800 "
         >
-            Voir plus
+            Commencer
         </button>
     </div>
 </template>
@@ -45,16 +45,16 @@ const skills = () => {
 
 <style scoped>
 .plus {
-    transition: background-color .3s, color .3s;
+    transition: background-color .2s, color .2s;
 }
 .plus:hover {
-    transition-delay: 0.3s;
+    transition-delay: 0.2s;
 }
 
 .plus::before {
     content: '';
     left: -100%;
-    transition: transform 0.4s;
+    transition: transform 0.3s;
 }
 .plus:hover::before {
     transform: translateX(100%);
@@ -63,7 +63,7 @@ const skills = () => {
 
 
 .transition {
-    transition: opacity 1.9s ease;
+    transition: opacity 1s ease;
 }
 .transition.fade {
     opacity: 0;
